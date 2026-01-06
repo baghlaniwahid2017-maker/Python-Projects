@@ -1,0 +1,5 @@
+print ("Hellow")
+print ("Welcome to Python class")
+print ("we hope to learn the basic to Advanced of this program")
+print ("my name is abdul wahid baghlani")
+print ("git hub and git bush installed")
