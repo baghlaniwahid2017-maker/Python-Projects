@@ -1,5 +1,10 @@
-print ("Hellow")
-print ("Welcome to Python class")
-print ("we hope to learn the basic to Advanced of this program")
-print ("my name is abdul wahid baghlani")
-print ("git hub and git bush installed")
+firstName = "Abdul Wahid"
+age = 21
+marital_status = True
+fee = 500
+date_of_birth ="2005-03-10"
+print ("firstname: ", firstName)
+print ("age: ", age)
+print ("marital_status: ", marital_status)
+print ("fee")
+print ("date_of_birth")
