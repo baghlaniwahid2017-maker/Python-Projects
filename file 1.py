@@ -52,9 +52,9 @@
 
 # Day Four Lesson - Control Flow ( شرط ها)
 
-x = 10
-y = 5
-result = x + y
+#x = 10
+#y = 5
+#result = x + y
 #print(result)
 
 #if result == 15:
@@ -68,3 +68,18 @@ result = x + y
 #    print("Not the required number")
 #else:
 #    print("Required Number congratulations")
+
+
+areacode = int(input("Enter Code"))
+if areacode == 90:
+    print("Trukey")
+elif areacode == 91:
+    print("India")
+elif areacode == 92:
+    print("Pakistan")
+elif areacode == 93:
+    print("Loy Afghanistan")
+else:
+    print("Try Again Letter !!!")
+
+
