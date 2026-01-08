@@ -80,7 +80,9 @@
 #        continue 
 #    print(x)
 
-for x in range(2,40):
-    if (x == 5) or (x == 2):
-        continue
-    print(x)
+#for x in range(2,40):
+#    if (x == 5) or (x == 2):
+#        continue
+#    print(x)
+
+
