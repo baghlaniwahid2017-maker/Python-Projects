@@ -62,3 +62,25 @@
 #   print(x)
 #   x-=1
 
+# (loop for)
+
+#for x in range (15):
+#   if x == 6:
+#       continue
+#   print(x)
+
+#for x in range (20):
+#    if (x == 4) or (x == 6):
+#        continue 
+#    print(x)
+
+
+#for x in range (2,30,2):
+#   if (x == 4) or (x == 6):
+#        continue 
+#    print(x)
+
+for x in range(2,40):
+    if (x == 5) or (x == 2):
+        continue
+    print(x)
