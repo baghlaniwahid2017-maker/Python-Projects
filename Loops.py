@@ -38,8 +38,27 @@
 #    print(x)
 #    x-=1
 
-x = 15
-while x > 1:
-    if x % 2 !=0:
-        print(x)
-    x-=1
+#x = 15
+#while x > 1:
+#    if x % 2 !=0:
+#        print(x)
+#    x-=1
+
+# Loops (for) practice
+
+
+# (Loop Continute)
+#x = 15
+#while x > 1:
+#    if x ==5:
+#        continue 
+#    print(x)
+#    x-=1
+# (loop Break)
+#x = 15
+#while x > 1:
+#    if x ==10:
+#        break
+#   print(x)
+#   x-=1
+
