@@ -47,25 +47,28 @@ def devide (x,y):
 
 #4
 
-def calculator(a, b, op):
-    if op == "+":
-        return a + b
-    elif op == "-":
-        return a - b
-    elif op == "/":
-        return a / b
-    elif op == "*":
-        return a * b
-    else:
-        return " Invalid Operator"
-    print(calculator (60, 8, "-"))
+#def calculator(a, b, op):
+#   if op == "+":
+#        return a + b
+#    elif op == "-":
+#       return a - b
+#    elif op == "/":
+#        return a / b
+#    elif op == "*":
+#        return a * b
+#    else:
+#        return " Invalid Operator"
+#    print(calculator (60, 8, "-"))
 
-while True:
-    num1 = int(input("Enter Number 1: "))
-    op = input("Enter Operator (+, -, *, /) or 'exit' to quit: ")
-    if op == "exit":
-        print("Calculator closed.")
-        break
-    num2 = int(input("Enter Number 2: "))
-    print("Result:", calculator(num1, num2, op))
+#while True:
+#    num1 = int(input("Enter Number 1: "))
+#    op = input("Enter Operator (+, -, *, /) or 'exit' to quit: ")
+#    if op == "exit":
+#        print("Calculator closed.")
+#        break
+#    num2 = int(input("Enter Number 2: "))
+#    print("Result:", calculator(num1, num2, op))
+def bill(a, b, c=0):
+    return a + b + c
+print(bill(100, 50))
 
