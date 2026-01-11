@@ -1,8 +1,7 @@
 
 
-
-x = 10
-score = [66, 90, 90, 90, 85]
+# Student 5
+# Subject 5
 
 def grade (ave):
     if ave > 90:
@@ -16,11 +15,13 @@ def grade (ave):
     else:
         return 'Fail'
 
-data = [66, 90, 90, 90, 85], [66, 90, 90, 90, 85], [70, 90, 85, 60, 85]
+Students = [
+    ("Ahmad", [66, 90, 90, 90, 85]),
+    ]
+     
 
     
-for x, scores in enumerate(data, start=1):
-    avg = sum(scores) / len(scores)
-
-print(f"Student {x}: Average = {avg:.2f}, Grade = {grade(avg)}")
+for name, scores in Students:
+     avg = sum(scores) / len(scores) 
+print(f"{name}: Total = {sum(scores)}, Average = {avg:.2f}, Grade = {grade(avg)}")
     
