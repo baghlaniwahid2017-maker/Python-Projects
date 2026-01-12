@@ -117,9 +117,19 @@
 
 # اگر از عدد کلان به خورد بخایم پرنت کنیم 
 
-x = 15
-while x > 1:
+#x = 15
+#while x > 1:
    
-    print(x)
-    x-=1
-    
+#    print(x)
+#    x-=1
+
+#text = "12345"
+#if "34" in text:
+#   print ("Yes")
+#else:
+#   print ("No")
+
+a = '5'
+b = '4'
+c = a + b
+print(c)   

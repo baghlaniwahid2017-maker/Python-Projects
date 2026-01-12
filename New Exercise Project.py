@@ -16,7 +16,7 @@ def grade (ave):
         return 'Fail'
 
 Students = [
-    ("Ahmad", [66, 90, 90, 90, 85]),
+    ("Ahmad", [66, 6, 55, 20, 85]),
     ]
      
 

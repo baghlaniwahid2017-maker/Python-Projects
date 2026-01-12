@@ -85,5 +85,8 @@
 #        continue
 #    print(x)
 
-x = [1, 2, 3, 4, 5]
-print(x[len(x)-4])
+#x = [1, 2, 3, 4, 5]
+#print(x[len(x)-4])
+
+num = 10
+print( num % 5 == 0)
