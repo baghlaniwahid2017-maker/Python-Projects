@@ -142,5 +142,5 @@ while True:
     for seg in segments: 
         if seg.distance(head) < GRID / 2: reset_game() 
     
-    time.sleep(DELAY / 1000.0)
+    time.sleep(DELAY / 500.0)
     
