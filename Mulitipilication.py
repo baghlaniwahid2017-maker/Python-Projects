@@ -6,6 +6,6 @@
 
 y = int(input("Enter Number for Multipilication: "))
 len = int(input("Enter length for Multipilication: "))
-for x in range (1, len + 1):
+for x in range (1 + len +2):
     print (y,"*",x, "=", x * y)
 

@@ -1,4 +1,4 @@
-secret_number = 50 
+
 import random 
 def number_guessing_game():
     print("Welcome to the Number Guessing Game!") 
