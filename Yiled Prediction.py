@@ -21,6 +21,6 @@ print("Coefficient for fertilizer:", model.coef_[1])
 print("Intercept:", model.intercept_)
 
 # Predict yield for new values
-predicted = model.predict([[400, 80]])
+predicted = model.predict([[200, 40]])
 print("Predicted yield:", predicted[0], "kg/ha")
 
