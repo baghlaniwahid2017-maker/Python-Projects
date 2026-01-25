@@ -41,6 +41,35 @@
 #print (fruits[:1])
 
 # list comprehensive , identity and Membership
+# first example 
+#Squares = [x ** 2 for x in range (9)]
+#print(Squares)
+# Second Exampel 
+#Squares = [x ** 2 for x in range (7)]
+#print(Squares)
 
-Squares = [x ** 2 for x in range (5)]
-print("squares")
+# Conditional list Comprehensive
+#evens = [x for x in range (10) if x % 2 == 0]
+#print ("evens")
+
+#Identity Vs Equality 
+
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+#print(a == b)
+#print (b == a)
+#print (c == a)
+#print (b == c)
+
+#print( a is c)
+#print (a is b)
+#print ( b is c)
+
+# Membershippip install numpy
+
+#print (2 in a)
+#print ( 5 in b)
+#print ( 2, b, a )
+
