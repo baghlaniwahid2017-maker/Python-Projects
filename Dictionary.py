@@ -1,4 +1,5 @@
 
+#Dictionary worked and practiced.
 #student = {
 #   "Name": "Wahid",
 #    "Age": 32,
@@ -24,8 +25,10 @@ student = {
 #print(student.get("dob"))
 #print(student.values())
 #print(student.keys())
-student.update({"sex":"Male"})
-print(student)
-student.pop("Email")
-print(student)
+#student.update({"sex":"Male"})
+#print(student)
+#student.pop("Email")
+#print(student)
+
+
 
