@@ -30,5 +30,14 @@ student = {
 #student.pop("Email")
 #print(student)
 
+# Nested Dictionary 
 
+students = {
+    "Ahmad": {"Age": 30, "Grade":95},
+    "Wahid": {"Age": 32, "Grade":99},
+    "Ali": {"Age": 44, "Grade": 88}
+}
 
+#print(students["Ahmad"]["Age"])
+#print(students["Wahid"]["Grade"])
+print(students["Ali"]["Age"])
