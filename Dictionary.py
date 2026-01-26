@@ -52,4 +52,5 @@ fruits = {"Apple", " Orange", " Banana", "lemon"}
 fruits2 = {"lemon", " Avocado", "Apple"}
 #print(fruits.union(fruits2)) ( it combine both sets)
 #print(fruits.difference(fruits2)) ( is show the defirences of set one which fruits from set two which is fruits2, it mean those who are in set a and set b, the remaing of a is shown)
-print(fruits.intersection(fruits2))
+#print(fruits.intersection(fruits2)) ( is show the items which are in both sets)
+print(fruits.symmetric_difference(fruits2))
