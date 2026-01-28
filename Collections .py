@@ -67,9 +67,15 @@ c = [1, 2, 3]
 #print (a is b)
 #print ( b is c)
 
-# Membershippip install numpy
+# Membership
 
 #print (2 in a)
 #print ( 5 in b)
 #print ( 2, b, a )
 
+print (a is c)
+print ( a == c)
+a. append(8)
+print(a)
+a.insert(3, 55)
+print(a)
