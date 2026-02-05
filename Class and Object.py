@@ -49,3 +49,17 @@ class Vehicle:
 #Object
 myCar = Vehicle("Toyota", " 2026", " Black")
 myCar.Car()
+
+
+
+class Organization:
+    def __init__(self, Name, offices, DateofEstablished,):
+       self. Name = Name
+       self. offices = offices
+       self. DateofEstablished = DateofEstablished
+    
+    def NGO(self):
+        print(f"Name {self.Name} Provincial offices {self.offices} DateofEstablished {self.DateofEstablished}")
+
+Org = Organization ("CHA Organization", "Marar, Zabul, Herat and Kandahar", " 1987-10-10")
+Org.NGO()
