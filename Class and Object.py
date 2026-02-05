@@ -38,13 +38,14 @@
 # --init-- Method  and attributes
 
 class Vehicle:
-    def __init__(self, Name, Model):
+    def __init__(self, Name, Model, Color,):
         self.Name = Name
         self.Model = Model
+        self.Color = Color
     
     def Car(self):
-        print(f"{self.Name} Model {self.Model}")
+        print(f"{self.Name} Model {self.Model} Color {self.Color}")
 
 #Object
-myCar = Vehicle("Toyota", " 2026")
+myCar = Vehicle("Toyota", " 2026", " Black")
 myCar.Car()
